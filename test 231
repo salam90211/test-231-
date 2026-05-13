@@ -99,3 +99,11 @@ http://derpnstink.local/weblog/wp-content/uploads/slideshow-gallery/shell.php
    41  ftp 192.168.1.231
 
 
+www-data@DeRPnStiNK:/var/www/html/weblog$ mysql -h loaclhost -u root -p
+mysql -h loaclhost -u root -p
+Enter password: mysql
+ERROR 2005 (HY000): Unknown MySQL server host 'loaclhost' (110)
+www-data@DeRPnStiNK:/var/www/html/weblog$ 
+
+
+
