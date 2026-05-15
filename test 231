@@ -155,5 +155,8 @@ python -c 'import pty; pty.spawn("/bin/bash")'
 
 ssh -o PubkeyAcceptedKeyTypes=+ssh-rsa -i key.txt stinky@192.168.1.231
 
-find / -name "helpdesk*" 2>/dev/null
+find / -name "helpdesk*" 2>/dev/null 
+زززززززززززززززززززززززززززززززززززززززززززززززززززززززززززززززززززززز
+find / -type f -name "derpissues.*" 2>/dev/null
+strings derpissues.pcap | grep -i create
 
