@@ -69,7 +69,7 @@ python -c 'import pty; pty.spawn("/bin/bash")'
     9  curl http://192.168.1.231 /#wp-config.php~
    10  nmap 192.168.1.0/24
    11  view http://192.168.1.231
-   12  ip a
+   12  ip ش
    13  nc -lvnp 4444 
    14  nano test.hash
    15  john --wordlists-/usr/share/wordlists/rockyou.txt test.hash
@@ -154,4 +154,6 @@ python -c 'import pty; pty.spawn("/bin/bash")'
 
 
 ssh -o PubkeyAcceptedKeyTypes=+ssh-rsa -i key.txt stinky@192.168.1.231
+
+find / -name "helpdesk*" 2>/dev/null
 
